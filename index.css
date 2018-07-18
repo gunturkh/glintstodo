@@ -1,0 +1,42 @@
+
+
+.container {
+    
+
+}
+
+.col {
+}
+
+.row-md-auto {
+}
+
+.col.text-center {
+}
+
+.input-group.mb-3 {
+    padding-left: 40px;
+    padding-right: 40px
+}
+
+.list-group {
+    margin-top: 10px;
+    margin-bottom: 10px 
+}
+
+.row.justify-content-sm-center.text-center {
+}
+
+.col.justify-content {
+}
+
+.form-control {
+    
+}
+
+.row.align-items-end {
+    margin: 10px
+}
+html,body {
+    height: 100%;
+}

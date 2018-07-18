@@ -4,54 +4,79 @@
 <head>
 
   <title>Glints To Do</title>
+
+  <!-- Bootstrap core CSS -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <!-- <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.2/cyborg/bootstrap.min.css" rel="stylesheet" integrity="sha384-OmOp86QQ0vXZpbcbCUXY4FUgU4IySB1L/5gTR4+tAaceD3KPF53+rCmQYSBnu++A" crossorigin="anonymous"> -->
   <link rel="shortcut icon" href=".ico">
+  <link rel="stylesheet" href="index.css">
 
 </head>
 
-<body>
+<body class>
 
-  <div>
+  <div class="container-fluid h-100">
 
+    
     <!-- Header -->
+    <div class="col">
+      <header>
 
-    <header>
+        <h1 id="title" class="red">
+          <div class="row-md-auto">
+            <div class="col text-center">
+          
+              <img src="glints.png" alt="Logo">
+              
+            </div>
+            <p class="col text-center">To Do</p>
+          </div>
+        </h1>
+       </header>
+    </div>
+      
+    <!-- Navigation -->
+    <div class="col text-center">
+      <nav>
 
-      <h1 id="title" class="red">
-        <div>
+        <a href="index.html"><img src="web.png" style="width:15px; height:15px"></a> | <a href="app.html"><img src="mobile.png" style="width:15px; height:15px"></a>
 
-        
-        <img src="glints.png" alt="Logo">
+      </nav>
+    </div>
 
+    
+    <div class="todolist">
+      <!-- App -->
+      <div class="row justify-content-sm-center text-center">
+
+        <div class="col justify-content">
+        <main>
+
+        <div class="input-group mb-3">
+          <div class="col col-sm-center">
+            <input type="text" class="form-control" placeholder="Add your todo here" aria-label="addtodo" aria-describedby="basic-addon2">
+          </div>
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button">Add</button>
+            </div>
+        </div>
+        </main>
         </div>
 
-        Glints To Do App
-      </h1>
-
-    </header>
-
-    <!-- Navigation -->
-
-    <nav>
-
-      <a href="index.html">Home</a> | <a href="app.html">App</a>
-
-    </nav>
-
-    <hr>
-
-    <!-- App -->
-    <main>
-
-        <textarea>Add Your Text Here</textarea>
-
-    </main>
-
-    <hr>
-
-    <!-- Footer -->
-    <footer>
-      <small>Copyright 2018 &copy; Glints</small>
-    </footer>
+      </div>
+    </div>
+     
+    
+      <!-- Footer -->
+      <footer class="footer">
+          <div class="container">
+       <small><p class="col textcenter">Copyright 2018 © Glints </p></small>
+            
+          </div>
+    
+        </footer>
+  
   </div>
 </body>
 
