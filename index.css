@@ -25,9 +25,8 @@
     margin-bottom: 10px 
 }
 
-
-
 .col.justify-content {
+
 }
 
 .feature {
@@ -43,6 +42,10 @@
 .row.fixed-bottom {
     /* margin: 10px; */
     background-color: black
+}
+.icon {
+    width: 25px;
+    height: 25px;
 }
 
 .row.bottom {
