@@ -1,5 +1,3 @@
-
-
 .input-group.mb-3 {
     margin-top: 10px;
     padding-left: 0px;
@@ -8,22 +6,25 @@
 
 .list-group.list-group-flush{
     margin-top: 10px;
-    margin-bottom: 10px 
+    margin-bottom: 10px;
 }
 
-
+.site {
+    display: flex;
+    min-height: 100vh;
+    
+}
 
 .feature {
     margin-top: 10px;
     margin-bottom: 0px;
-    font-size: 3rem
+    font-size: 3rem;
 }
-
-
 
 .row.fixed-bottom {
 
-    background-color: black
+    background-color: black;
+
 }
 .icon {
     width: 25px;
@@ -31,21 +32,21 @@
 }
 
 .screenshot {
-    border-style: double
+    border-style: double;
 }
 
 .row.bottom {
     background-color: black;
-    margin-top: 10px
+    margin-top: 10px;
 }
 .col.textcenter {
     margin: 10px;
-    color: white
+    color: white;
 }
 
 .col.text-center.features{
-    margin-bottom: 50px
+    margin-bottom: 50px;
 }
 .col.col-sm-4 {
-    padding: 10px
+    padding: 10px;
 }
