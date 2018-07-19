@@ -1,19 +1,5 @@
 
 
-.container {
-    
-
-}
-
-.col {
-}
-
-.row-md-auto {
-}
-
-.col.text-center {
-}
-
 .input-group.mb-3 {
     margin-top: 10px;
     padding-left: 0px;
@@ -25,9 +11,7 @@
     margin-bottom: 10px 
 }
 
-.col.justify-content {
 
-}
 
 .feature {
     margin-top: 10px;
@@ -35,12 +19,10 @@
     font-size: 3rem
 }
 
-.form-control {
-    
-}
+
 
 .row.fixed-bottom {
-    /* margin: 10px; */
+
     background-color: black
 }
 .icon {
