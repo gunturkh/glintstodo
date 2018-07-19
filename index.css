@@ -48,6 +48,10 @@
     height: 25px;
 }
 
+.screenshot {
+    border-style: double
+}
+
 .row.bottom {
     background-color: black;
     margin-top: 10px
@@ -55,6 +59,10 @@
 .col.textcenter {
     margin: 10px;
     color: white
+}
+
+.col.text-center.features{
+    margin-bottom: 50px
 }
 .col.col-sm-4 {
     padding: 10px
