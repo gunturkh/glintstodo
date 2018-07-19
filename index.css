@@ -15,19 +15,25 @@
 }
 
 .input-group.mb-3 {
-    padding-left: 40px;
-    padding-right: 40px
+    margin-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
-.list-group {
+.list-group.list-group-flush{
     margin-top: 10px;
     margin-bottom: 10px 
 }
 
-.row.justify-content-sm-center.text-center {
-}
+
 
 .col.justify-content {
+}
+
+.feature {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 3rem
 }
 
 .form-control {
@@ -37,6 +43,11 @@
 .row.fixed-bottom {
     /* margin: 10px; */
     background-color: black
+}
+
+.row.bottom {
+    background-color: black;
+    margin-top: 10px
 }
 .col.textcenter {
     margin: 10px;

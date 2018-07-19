@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
     <head>
             <meta charset="UTF-8">
@@ -9,39 +10,39 @@
             
      </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
 
         <!--Header-->
-        <div class="col text-center">
-        <h1 id="title" class="black">
-            
-                <img src="glints.png" alt="Logo">
-                <br>
-                Glints To Do
-        </h1>
+        <div class="row">
+            <div class="col text-center">
+                <h1 id="title" class="black">
+                    
+                    <img src="glints.png" alt="Logo">
+                    <br>
+                    Glints To Do
+                </h1>
         </div>
+    </div>
         <!--Navigation-->
-
-        <div class="col text-center">
-        <nav>
-                <a href="index.html"><img src="web.png" style="width:15px; height:15px"></a> | <a href="app.html"><img src="mobile.png" style="width:15px; height:15px"></a>
-        </nav>
-        </div>
+        <div class="row">
+            <div class="col text-center">
+                <nav>
+                        <a href="index.html"><img src="web.png" style="width:15px; height:15px"></a> | <a href="app.html"><img src="mobile.png" style="width:15px; height:15px"></a>
+                </nav>
+            </div>
+    </div>
        
         
-        <!--Introduction-->
-        <div class="col text-center">
-        <main>
-           
-        </main>
-        </div>
+        
         <!--Features-->
 
         <main>
+            <div class="row">
             <div class="col text-center">
-                <strong><em>Feature</em></strong>:
+                <p class="feature"><strong><em>Feature</em></strong>:</p>
                 <div class="row justify-content-md-center">
-                <ul class="list-group">
+                <ul class="list-group list-group-flush">
+
                         <li class="list-group-item">Create todo</li>
                         <li class="list-group-item">Read todo</li>
                         <li class="list-group-item">Update todo</li>
@@ -50,26 +51,37 @@
                 </ul>
                 </div> 
             </div>
+            </div>
         </main>
         
         <!--Screenshots-->
+        <div class="row">
 
-        <div class="col text-center">
-            
-            <img src="glintstodo.png" alt="Screenshot">
+            <div class="col text-center">
+                
+                <img src="glintstodo.png" alt="Screenshot">
+
+            </div>
 
         </div>
 
+        
 
 
         
 
         <!--Footer-->
         <footer>
-            <div class="col text-center">
-            <small>Copyright 2018 &copy; Glints </small>
+
+            <div class="row bottom">
+            
+                <p class="col textcenter"><small>Copyright 2018 &copy; Glints </small></p>
+            
             </div>
+       
         </footer>
+    
     </div>
+
 </body>
 </html>
