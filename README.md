@@ -12,7 +12,7 @@ A Simple ToDo App in Glints Academy Career Batch #1 made by [GunturKH](https://g
 
 ## Screenshots
 
-![Glints ToDo App](screenshots.png)
+![Glints ToDo App](/images/screenshots.png)
 
 ## Reference
 
