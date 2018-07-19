@@ -12,9 +12,10 @@ A Simple ToDo App in Glints Academy Career Batch #1 made by [GunturKH](https://g
 
 ## Screenshots
 
-![Glints ToDo App](glintstodo.png)
+![Glints ToDo App](screenshots.png)
 
 ## Reference
 
-- [Figma Mockup](https://www.figma.com/file/VGC0jeChl3GuWZRnj782uS5y/To-Do-App)
-- [Figma Prototype](https://www.figma.com/proto/VGC0jeChl3GuWZRnj782uS5y/To-Do-App?scaling=scale-down&node-id=1%3A2)
+- [Github](https://github.com/gunturkh)
+- [Repository](https://github.com/gunturkh/glintstodo)
+- [Live](https://glintstodoguntur.netlify.com/)
