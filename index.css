@@ -34,9 +34,14 @@
     
 }
 
-.row.align-items-end {
-    margin: 10px
+.row.fixed-bottom {
+    /* margin: 10px; */
+    background-color: black
 }
-html,body {
-    height: 100%;
+.col.textcenter {
+    margin: 10px;
+    color: white
+}
+.col.col-sm-4 {
+    padding: 10px
 }
